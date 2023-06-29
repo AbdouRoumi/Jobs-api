@@ -20,7 +20,22 @@ The Jobs API is a Node.js-based RESTful API that provides functionality for mana
 
 ## Installation
 
-1. Clone the repository:
+### 1. Clone the repository:
 
    ```bash
    git clone <repository-url>
+
+### 2-Install dependencies:
+```bash
+cd jobs-api
+npm install
+
+### 3-Set up environment variables:
+
+    Create a .env file in the root directory.
+
+    Define the following environment variables in the .env file:
+      ```bash
+      MONGO_URI=<your-mongodb-uri>
+
+
