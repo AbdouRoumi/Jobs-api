@@ -34,11 +34,11 @@ npm install
 
 In order to spin up the project, in the root create .env with these two variables, with your own values.
 
-MONGO_URI
+MONGO_URL &&
 JWT_SECRET
 
-      ```bash
-      MONGO_URI=<your-mongodb-uri>
-      JWT_SECRET=<your-jwt-Secret>
-      ```
+```bash
+MONGO_URI=<your-mongodb-uri>
+JWT_SECRET=<your-jwt-Secret>
+```
 
