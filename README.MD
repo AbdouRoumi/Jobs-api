@@ -37,7 +37,6 @@ In order to spin up the project, in the root create .env with these two variable
 MONGO_URI
 JWT_SECRET
 
-Define the following environment variables in the .env file:
       ```bash
       MONGO_URI=<your-mongodb-uri>
       JWT_SECRET=<your-jwt-Secret>
