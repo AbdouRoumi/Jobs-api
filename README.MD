@@ -32,10 +32,14 @@ npm install
 ```
 ### 3-Set up environment variables:
 
-Create a .env file in the root directory.
+In order to spin up the project, in the root create .env with these two variables, with your own values.
 
-    Define the following environment variables in the .env file:
+MONGO_URI
+JWT_SECRET
+
+Define the following environment variables in the .env file:
       ```bash
       MONGO_URI=<your-mongodb-uri>
+      JWT_SECRET=<your-jwt-Secret>
       ```
 
