@@ -32,7 +32,7 @@ npm install
 ```
 ### 3-Set up environment variables:
 
-    Create a .env file in the root directory.
+Create a .env file in the root directory.
 
     Define the following environment variables in the .env file:
       ```bash
